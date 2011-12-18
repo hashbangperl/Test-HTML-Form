@@ -9,7 +9,7 @@ Test::HTML::Form - HTML Testing and Value Extracting
 
 =head1 VERSION
 
-0.05
+0.06
 
 =head1 SYNOPSIS
 
@@ -93,7 +93,7 @@ my $CLASS = __PACKAGE__;
 my %parsed_files = ();
 my %parsed_file_forms = ();
 
-our $VERSION = 0.05;
+our $VERSION = 0.06;
 
 =head1 FUNCTIONS
 
