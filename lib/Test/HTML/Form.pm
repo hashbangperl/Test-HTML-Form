@@ -535,6 +535,7 @@ sub get_form_values {
 				    my $form = shift;
 				    if ($form_name) {
 				      return 1 if $form->attr('name') eq $form_name;
+				      return 1 if $form->attr('id') eq $form_name;
 				    } else {
 				      return 1;
 				    }
