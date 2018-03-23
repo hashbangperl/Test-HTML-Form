@@ -1,5 +1,10 @@
 Revision history for Perl extension Test::HTML::Form.
 
+1.00 March 22 2018
+        Fix Data::Dumper maxdepth bug
+        Fix handling of undefined tags
+        Added new tests for missing tags
+
 0.06 Dec 18 2011
 	Forms can be fetched by id or name
 	

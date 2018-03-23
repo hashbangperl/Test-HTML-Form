@@ -6,4 +6,5 @@ META.yml
 t/00-load.t			   
 t/form_with_errors.html
 t/html.t
+t/failures.t
 lib/Test/HTML/Form.pm
