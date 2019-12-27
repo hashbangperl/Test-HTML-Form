@@ -1,0 +1,18 @@
+package fake_response;
+use strict;
+
+my $internal_content_list = [
+    { title => 'test 1', content => '' },
+    { title => 'test 2', content => '' },
+    ];
+
+sub content {
+    my $content = shift @$internal_content_list;
+    return '<html><body><h1></h1><form name="foo"></form></body></html>'
+}
+
+sub decoded_content {
+    return content();
+}
+
+1;
