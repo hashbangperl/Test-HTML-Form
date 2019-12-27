@@ -4,6 +4,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Test::HTML::Form',
     VERSION_FROM      => 'lib/Test/HTML/Form.pm', # finds $VERSION
+    LICENSE           => 'perl_5',
     PREREQ_PM         => {
 			 HTML::TreeBuilder => 0,
 			 Digest::MD5 => 0,
